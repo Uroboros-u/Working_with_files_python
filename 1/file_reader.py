@@ -12,5 +12,5 @@ for line in lines:
     pi_string += line.lstrip()
 
 print(pi_string)
-print(len(pi_string))
+
 
