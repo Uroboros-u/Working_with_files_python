@@ -6,7 +6,7 @@ lists_of_path = ['dogs.txt', 'cats.txt']
 for one_path in lists_of_path:
     path = Path(one_path)
     try:
-            content = path.read_text()
+        content = path.read_text()
     except FileNotFoundError:
         pass
     else:
