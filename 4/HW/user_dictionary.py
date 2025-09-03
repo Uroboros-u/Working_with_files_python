@@ -2,7 +2,6 @@
 from pathlib import Path
 import json
 
-
 def get_stored_user(path):
     """Get stored user if available."""
     if path.exists():
